@@ -6,9 +6,21 @@
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/assets/icon-256.png">
+  <link rel="manifest" href="/manifest.json">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#fb4f4f">
 </head>
 <body>
   <app-root></app-root>
+
+  <div class="splash" id="content">
+    <img src="/assets/logo.svg" width="256px" alt="JB PWA logo">
+  </div>
+
+  <noscript>
+    <p>Sorry, Javascript must be enabled to run this app.</p>
+  </noscript>
 </body>
 </html>

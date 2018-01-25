@@ -1,0 +1,16 @@
+{
+    "short_name": "NG-PWA",
+    "name": "Angular PWA",
+    "start_url": "/",
+    "theme_color": "#fb4f4f",
+    "background_color": "#fafafa",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/assets/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
